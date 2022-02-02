@@ -1,7 +1,7 @@
-name: CI Pipeline Updated
+name: CI Pipeline
 on:
   push:
-    banches:
+    branches:
       - '**'
     tags-ignore:
       - 'v*' 
