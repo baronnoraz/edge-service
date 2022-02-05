@@ -20,4 +20,4 @@ jobs:
       - name: Compile and test application
         run: |
           chmod +x gradlew
-          ./gradlew build --debug --stacktrace
+          ./gradlew build --stacktrace
